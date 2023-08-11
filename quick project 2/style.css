@@ -1,0 +1,119 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: white;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+}
+main{
+  display: flex;
+  gap: 2%;
+}
+aside{
+  background-color: black;
+  color: white; 
+  width: 20%;
+}
+aside h1{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin: 50px 0px;
+  text-transform: uppercase;
+}
+aside h3{
+  text-transform: capitalize;
+  font-size: 20px;
+  font-size: 500;
+}
+aside p {
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+aside .wale{
+  margin: 40px 20px 20px 0px;
+}
+aside .wale .number{
+  text-transform: lowercase;
+}
+aside .currency{
+  margin: 20px 20px 5px 0px;
+}
+aside .invoice{
+  margin: 10px 50% 10px 0px;
+}
+aside .receipt{
+  margin: 10px 20px 5px 0px;
+}
+aside .payment{
+  margin: 10px 20px 5px 0px;
+}
+aside .bank-details{
+  margin: 10px 80px 20px 0px;
+}
+section{
+  margin-top: 50px;
+}
+section h1{
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0px 0px 20px 0px;
+}
+section .table-section{
+  width: 100%;
+  border-collapse: collapse;
+}
+section .header{
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  text-align: left;
+}
+section .table-footer{
+  color: hsl(212, 23%, 69%);
+  display: flex;
+  justify-content: end;
+  margin: 40px 20px 20px 0px;
+  width: 70%;
+}
+section .table-footer .sub-total{
+  color: black;
+  padding-left: 80px;
+  font-weight: bolder;
+}
+section .table-footer .discount{
+  padding-left: 80px;
+  text-align: end;
+}
+section .table-footer .VAT {
+  padding-left: 80px;
+  text-align: end;
+}
+section .table-footer .total{
+  padding-left: 80px;
+  text-align: end;
+}
+section h4{
+  text-transform: uppercase;
+  margin: 50px 0px 0px 0px;
+}
+section .center p{
+  color: hsl(212, 23%, 69%);
+  padding: 0px 53% 0px 0px;
+}
+section .footer{
+  color: hsl(212, 23%, 69%);
+  margin: 100px 0px 0px 0px;
+}
+section .footer .pathway{
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 2px solid wheat;
+}
